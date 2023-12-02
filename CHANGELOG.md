@@ -19,4 +19,8 @@
 
 ## 1.0.0
 
+<<<<<<< HEAD
 - Initial commit, first version.{ 'commit' ; 'bbba273' }
+=======
+- Initial commit, first version.{ 'commit' ; '' }
+>>>>>>> origin/main
