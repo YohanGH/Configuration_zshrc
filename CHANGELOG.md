@@ -17,10 +17,10 @@
 
 ---
 
-## 1.0.1
+## 1.0.1 { 'commit' : '954a7d1' }
 
 - Deleting aliases for reasons of use.
 
-## 1.0.0
+## 1.0.0 { 'commit' ; 'bbba273' }
 
-- Initial commit, first version.{ 'commit' ; 'bbba273' }
+- Initial commit, first version.
