@@ -1,16 +1,3 @@
-#/* ******************************************************************************* */
-#/*                                                                                 */
-#/*  My-alias.zsh                                                                   */
-#/*                                                                                 */
-#/*  By: YohanGH <[Your Email]>            __...--~~~~~-._   _.-~~~~~--...__        */
-#/*                                       //               `V'               \\     */
-#/*                                      //                 |                 \\    */
-#/*  Created: 2023-11-30 By: YohanGH    //__...--~~~~~~-._  |  _.-~~~~~~--...__\\   */
-#/*  Updated: 2023-11-30 By: YohanGH   //__.....----~~~~._\ | /_.~~~~----.....__\\  */
-#/*                                   ====================\\|//==================== */
-#/*                                                       `---`                     */
-#/* ******************************************************************************* */
-
 alias ...=../..
 alias ....=../../..
 alias .....=../../../..
@@ -25,8 +12,6 @@ alias 7='cd -7'
 alias 8='cd -8'
 alias 9='cd -9'
 alias _=sudo
-alias afind='ack -il'
-alias d='dirs -v | head -10'
 alias g=git
 alias ga='git add'
 alias gaa='git add --all'
@@ -74,18 +59,12 @@ alias gdw='git diff --word-diff'
 alias gf='git fetch'
 alias gfa='git fetch --all --prune'
 alias gfo='git fetch origin'
-alias gg='git gui citool'
-alias gga='git gui citool --amend'
 alias ggpull='git pull origin $(git_current_branch)'
-alias ggpur=ggu
 alias ggpush='git push origin $(git_current_branch)'
 alias ggsup='git branch --set-upstream-to=origin/$(git_current_branch)'
 alias ghh='git help'
 alias gignore='git update-index --assume-unchanged'
 alias gignored='git ls-files -v | grep "^[[:lower:]]"'
-alias git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
-alias gk='\gitk --all --branches'
-alias gke='\gitk --all $(git log -g --pretty=%h)'
 alias gl='git pull'
 alias glg='git log --stat'
 alias glgg='git log --graph'
@@ -134,7 +113,6 @@ alias gsb='git status -sb'
 alias gsd='git svn dcommit'
 alias gsi='git submodule init'
 alias gsps='git show --pretty=short --show-signature'
-alias gsr='git svn rebase'
 alias gss='git status -s'
 alias gst='git status'
 alias gsta='git stash save'

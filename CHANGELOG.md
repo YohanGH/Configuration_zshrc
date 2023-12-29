@@ -17,6 +17,10 @@
 
 ---
 
+## 1.0.1
+
+- Deleting aliases for reasons of use.
+
 ## 1.0.0
 
 - Initial commit, first version.{ 'commit' ; 'bbba273' }
